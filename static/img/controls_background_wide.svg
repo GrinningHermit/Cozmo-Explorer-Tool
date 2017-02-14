@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="170px" viewBox="0 0 640 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>controls_background_wide</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="0" y="0" width="44" height="44" rx="8"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="controls_background_wide">
+            <rect id="background-size-0-alpha" fill-opacity="0.5" fill="#FFFFFF" x="0" y="0" width="640" height="170"></rect>
+            <g id="head-bg" transform="translate(7.000000, 36.000000)">
+                <path d="M0,8.00697327 C0,3.58484404 3.5828358,0 7.99601942,0 L108.003981,0 C112.42006,0 116,3.59075293 116,8.00697327 L116,119.993027 C116,124.415156 112.417164,128 108.003981,128 L7.99601942,128 C3.57993984,128 0,124.409247 0,119.993027 L0,8.00697327 Z M3,8.99611244 L3,83.0038876 C3,86.3080675 5.68279713,89 8.9921951,89 L107.007805,89 C110.3082,89 113,86.315449 113,83.0038876 L113,8.99611244 C113,5.69193253 110.317203,3 107.007805,3 L8.9921951,3 C5.69180017,3 3,5.68455098 3,8.99611244 Z" id="Combined-Shape" fill="#6E6E6E"></path>
+                <g id="head-icon" transform="translate(12.000000, 94.000000)">
+                    <path d="M0,4.92881566 C0,2.71954178 1.77020832,0.687024243 3.97125923,0.441170607 C3.97125923,0.441170607 5.89307253,7.8214981e-16 12.2616146,0 C18.6301566,0 21.0329967,0.465645925 21.0329967,0.465645925 C23.2239121,0.721312621 25,2.7234855 25,4.92881566 L25,21.0711843 C25,23.2804582 23.2221033,25.303351 21.0248627,25.5425151 C21.0248627,25.5425151 18.75,26 12.5,26 C6.25,26 3.96132432,25.541155 3.96132432,25.541155 C1.77354531,25.2817323 0,23.2765145 0,21.0711843 L0,4.92881566 Z" id="Rectangle-6" stroke="#FFFFFF" stroke-width="3"></path>
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="13" y="7" width="7" height="7" rx="2"></rect>
+                    <rect id="Rectangle-4-Copy" fill="#FFFFFF" x="5" y="7.5" width="6" height="6" rx="2"></rect>
+                </g>
+                <text id="HEAD" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="50" y="114">HEAD</tspan>
+                </text>
+            </g>
+            <g id="arm-bg" transform="translate(415.000000, 36.000000)">
+                <path d="M0,8.00697327 C0,3.58484404 3.5828358,0 7.99601942,0 L108.003981,0 C112.42006,0 116,3.59075293 116,8.00697327 L116,119.993027 C116,124.415156 112.417164,128 108.003981,128 L7.99601942,128 C3.57993984,128 0,124.409247 0,119.993027 L0,8.00697327 Z M3,8.99611244 L3,83.0038876 C3,86.3080675 5.68279713,89 8.9921951,89 L107.007805,89 C110.3082,89 113,86.315449 113,83.0038876 L113,8.99611244 C113,5.69193253 110.317203,3 107.007805,3 L8.9921951,3 C5.69180017,3 3,5.68455098 3,8.99611244 Z" id="Combined-Shape" fill="#6E6E6E"></path>
+                <path d="M12,98 L12,112.462677 C12,117.055374 15.5389175,117.306457 15.5389175,117.306457 L40.353295,117.306457 C40.353295,117.306457 43,117.257728 43,112.462677 C43,107.667626 43,98 43,98" id="Path-3" stroke="#FFFFFF" stroke-width="6"></path>
+                <text id="ARM" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="55" y="114">ARM</tspan>
+                </text>
+            </g>
+            <g id="head-up" transform="translate(27.000000, 43.000000)" fill="#FFD800">
+                <polygon id="Rectangle-2-Copy-4" points="11.1666667 0 21.3835425 12.3846154 0.949790795 12.3846154"></polygon>
+            </g>
+            <g id="head-down" transform="translate(82.000000, 107.000000)" fill="#FFD800">
+                <polygon id="Rectangle-2-Copy-4" transform="translate(10.216876, 6.192308) rotate(180.000000) translate(-10.216876, -6.192308) " points="10.2168759 0 20.4337517 12.3846154 1.42108547e-14 12.3846154"></polygon>
+            </g>
+            <g id="arm-up" transform="translate(435.000000, 43.000000)" fill="#FFD800">
+                <polygon id="Rectangle-2-Copy-4" points="11.1666667 0 21.3835425 12.3846154 0.949790795 12.3846154"></polygon>
+            </g>
+            <g id="arm-down" transform="translate(490.000000, 107.000000)" fill="#FFD800">
+                <polygon id="Rectangle-2-Copy-4" transform="translate(10.216876, 6.192308) rotate(180.000000) translate(-10.216876, -6.192308) " points="10.2168759 0 20.4337517 12.3846154 1.42108547e-14 12.3846154"></polygon>
+            </g>
+            <g id="directions" transform="translate(170.000000, 2.000000)" fill="#1274C4">
+                <g id="forward" transform="translate(84.000000, 0.000000)">
+                    <polygon id="Rectangle-2" points="15.1666667 0 30.3333333 18.3846154 -2.84217094e-14 18.3846154"></polygon>
+                </g>
+                <g id="back" transform="translate(84.000000, 139.000000)">
+                    <polygon id="Rectangle-2-Copy-3" transform="translate(15.166667, 9.192308) rotate(180.000000) translate(-15.166667, -9.192308) " points="15.1666667 0 30.3333333 18.3846154 -2.13162821e-14 18.3846154"></polygon>
+                </g>
+                <g id="right" transform="translate(180.000000, 64.000000)">
+                    <polygon id="Rectangle-2-Copy" transform="translate(9.192308, 15.166667) rotate(90.000000) translate(-9.192308, -15.166667) " points="9.19230769 5.97435897 24.3589744 24.3589744 -5.97435897 24.3589744"></polygon>
+                </g>
+                <g id="left" transform="translate(0.000000, 64.000000)">
+                    <polygon id="Rectangle-2-Copy-2" transform="translate(9.192308, 15.166667) rotate(-90.000000) translate(-9.192308, -15.166667) " points="9.19230769 5.97435897 24.3589744 24.3589744 -5.97435897 24.3589744"></polygon>
+                </g>
+            </g>
+            <g id="shift" transform="translate(131.000000, 120.000000)" font-size="14" font-family="LiberationSans, Liberation Sans" fill="#4A4A4A" font-weight="normal">
+                <text id="faster">
+                    <tspan x="17.4931641" y="13">faster</tspan>
+                </text>
+            </g>
+            <g id="alt" transform="translate(337.000000, 120.000000)" font-size="14" font-family="LiberationSans, Liberation Sans" fill="#4A4A4A" font-weight="normal">
+                <text id="slower">
+                    <tspan x="14.7724609" y="13">slower</tspan>
+                </text>
+            </g>
+            <g id="Buttons" transform="translate(16.000000, 25.000000)">
+                <g id="Keyboard-Button" transform="translate(0.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">Q</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(54.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-4)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">E</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(408.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-6)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">R</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(462.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-8)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">F</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(231.000000, 0.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-10)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">W</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(231.000000, 68.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-12)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">S</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(285.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-14)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">D</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Button" transform="translate(177.000000, 34.000000)" stroke-width="2">
+                    <use id="Rectangle" stroke="#979797" mask="url(#mask-16)" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    <text id="Q" stroke="#4A4A4A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#4A4A4A">
+                        <tspan x="0" y="34">A</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-State" transform="translate(115.000000, 112.000000)">
+                    <rect id="Rectangle-5" fill="#CCCCCC" fill-rule="evenodd" x="0" y="0" width="70" height="27" rx="4"></rect>
+                    <text id="SHIFT" stroke="#FFFFFF" stroke-width="2" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="9" y="20">SHIFT</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-State" transform="translate(321.000000, 112.000000)">
+                    <rect id="Rectangle-5" fill="#CCCCCC" fill-rule="evenodd" x="0" y="0" width="70" height="27" rx="4"></rect>
+                    <text id="SHIFT" stroke="#FFFFFF" stroke-width="2" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="17.5" y="20">ALT</tspan>
+                    </text>
+                </g>
+                <g id="Keyboard-Toggle-Off" transform="translate(551.000000, 12.000000)">
+                    <g id="Keyboard-Toggle">
+                        <use id="Rectangle" stroke="#979797" mask="url(#mask-18)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-17"></use>
+                        <text id="I" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#9B9B9B">
+                            <tspan x="0" y="34">I</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Keyboard-Toggle-Off" transform="translate(551.000000, 95.000000)">
+                    <g id="Keyboard-Toggle">
+                        <use id="Rectangle" stroke="#979797" mask="url(#mask-20)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-19"></use>
+                        <text id="I" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" line-spacing="34" fill="#9B9B9B">
+                            <tspan x="0" y="34">P</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <text id="IR-light" font-family="LiberationSans-Bold, Liberation Sans" font-size="14" font-weight="bold" fill="#4A4A4A">
+                <tspan x="565.282715" y="31">IR light</tspan>
+            </text>
+            <text id="Free-Play" font-family="LiberationSans-Bold, Liberation Sans" font-size="14" font-weight="bold" fill="#4A4A4A">
+                <tspan x="557.869141" y="115">Free Play</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

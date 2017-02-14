@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Cozmo Animation Explorer</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/cozmo_animation_list.css?q={{ randomID }}">
+
+    <script type=text/javascript>
+        var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        var anims_raw = '{{ animations }}';
+        var triggers_raw = '{{ triggers }}';
+        var behaviors_raw = '{{ behaviors }}';
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../static/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="../static/js/engine.js?q={{ randomID }}"></script>
+</head>
+
+<body>
+    <div id="header">
+        <img src="../static/img/cozmo-logo.svg" class="logo" height="30" width="147">
+        Animation Explorer
+        <div class="hermit">created by <a href="https://forums.anki.com/users/grinninghermit/summary">GrinningHermit</a></div>
+    </div>
+    <div id="menu">
+        <button id="btn-animations" class="ui-button ui-widget ui-corner-all">Animations</button>
+        <button id="btn-triggers" class="ui-button ui-widget ui-corner-all">Triggers</button>
+        <button id="btn-behaviors" class="ui-button ui-widget ui-corner-all">Behaviors</button>
+    </div>
+
+    <div id="content">
+    <div id="tabs">
+        <ul>
+            <li><a href="#fragment-1">One</a></li>
+            <li><a href="#fragment-2">Two</a></li>
+            <li><a href="#fragment-3">Three</a></li>
+        </ul>
+        <div id="fragment-1">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </div>
+        <div id="fragment-2">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </div>
+        <div id="fragment-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </div>
+    </div>
+        <div id="l-col" class="flex-col">
+            <div class="bg-grey">
+                <input id="search" name="search" placeholder="Search" type="text" data-list=".list">
+                <i id="filterclear" class="fa fa-times-circle"></i>
+                <i id="filtersubmit" class="fa fa-search"></i>
+            </div>
+        </div>
+        <div id="c-col" class="flex-col">
+            <ul id="ul-list" class="list"></ul>
+        </div>
+        <div id="r-col" class="flex-col">
+            <div>
+                <img src="../static/img/cozmo_blank.svg" id="c-blank" class="cozmo">
+                <img src="../static/img/cozmo_eyes.svg" id="c-eyes" class="cozmo">
+                <img src="../static/img/cozmo_playing.svg" id="c-play" class="cozmo">
+            </div>
+            <div id="animation-name">
+                <div id="mono">nothing</div>
+                <div id="status">started yet</div>
+                <button id="btn-copy" class="ui-button ui-widget ui-corner-all">copy to clipboard <i class="fa fa-copy"></i></button>
+            </div>
+            <div class="content-text">
+                This is the complete list of animations directly pulled from Cozmo's memory. Click an animation to play it. You can copy an animation for your own use in your python script. <br><br>Check the project file 'play_animation.py' on how to play the animation in your own script.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

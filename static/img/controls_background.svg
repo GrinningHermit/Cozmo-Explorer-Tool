@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="292px" height="302px" viewBox="0 0 292 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>controls_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="controls_background">
+            <rect id="Rectangle-7" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="292" height="302"></rect>
+            <g id="head-bg" transform="translate(8.000000, 8.000000)">
+                <rect id="Rectangle-3" fill="#9B9B9B" x="0" y="0" width="116" height="128" rx="8"></rect>
+                <rect id="Rectangle-3-Copy-2" fill="#FFFFFF" x="3" y="3" width="110" height="86" rx="6"></rect>
+                <g id="head-icon" transform="translate(12.000000, 94.000000)">
+                    <path d="M0,4.92881566 C0,2.71954178 1.77020832,0.687024243 3.97125923,0.441170607 C3.97125923,0.441170607 5.89307253,7.8214981e-16 12.2616146,0 C18.6301566,0 21.0329967,0.465645925 21.0329967,0.465645925 C23.2239121,0.721312621 25,2.7234855 25,4.92881566 L25,21.0711843 C25,23.2804582 23.2221033,25.303351 21.0248627,25.5425151 C21.0248627,25.5425151 18.75,26 12.5,26 C6.25,26 3.96132432,25.541155 3.96132432,25.541155 C1.77354531,25.2817323 0,23.2765145 0,21.0711843 L0,4.92881566 Z" id="Rectangle-6" stroke="#FFFFFF" stroke-width="3"></path>
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="13" y="7" width="7" height="7" rx="2"></rect>
+                    <rect id="Rectangle-4-Copy" fill="#FFFFFF" x="5" y="7.5" width="6" height="6" rx="2"></rect>
+                </g>
+                <text id="HEAD" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="50" y="114">HEAD</tspan>
+                </text>
+            </g>
+            <g id="arm-bg" transform="translate(168.000000, 8.000000)">
+                <rect id="Rectangle-3-Copy" fill="#9B9B9B" x="0" y="0" width="116" height="128" rx="8"></rect>
+                <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="3" y="3" width="110" height="86" rx="6"></rect>
+                <path d="M12,98 L12,112.462677 C12,117.055374 15.5389175,117.306457 15.5389175,117.306457 L40.353295,117.306457 C40.353295,117.306457 43,117.257728 43,112.462677 C43,107.667626 43,98 43,98" id="Path-3" stroke="#FFFFFF" stroke-width="6"></path>
+                <text id="ARM" font-family="LiberationSans-Bold, Liberation Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="55" y="114">ARM</tspan>
+                </text>
+            </g>
+            <g id="head-up" transform="translate(28.000000, 15.000000)" fill="#9B9B9B">
+                <polygon id="Rectangle-2-Copy-4" points="11.1666667 0 21.3835425 12.3846154 0.949790795 12.3846154"></polygon>
+            </g>
+            <g id="head-down" transform="translate(71.000000, 31.000000)" fill="#9B9B9B">
+                <polygon id="Rectangle-2-Copy-4" transform="translate(22.216876, 54.192308) rotate(180.000000) translate(-22.216876, -54.192308) " points="22.2168759 48 32.4337517 60.3846154 12 60.3846154"></polygon>
+            </g>
+            <g id="arm-up" transform="translate(177.000000, 15.000000)" fill="#9B9B9B">
+                <polygon id="Rectangle-2-Copy-4" points="22.1666667 0 32.3835425 12.3846154 11.9497908 12.3846154"></polygon>
+            </g>
+            <g id="arm-down" transform="translate(231.000000, 31.000000)" fill="#9B9B9B">
+                <polygon id="Rectangle-2-Copy-4" transform="translate(22.216876, 54.192308) rotate(180.000000) translate(-22.216876, -54.192308) " points="22.2168759 48 32.4337517 60.3846154 12 60.3846154"></polygon>
+            </g>
+            <g id="directions" transform="translate(46.000000, 136.000000)" fill="#1274C4">
+                <g id="forward" transform="translate(78.000000, 0.000000)">
+                    <polygon id="Rectangle-2" points="22.1666667 0 37.3333333 18.3846154 7 18.3846154"></polygon>
+                </g>
+                <g id="back" transform="translate(78.000000, 91.000000)">
+                    <polygon id="Rectangle-2-Copy-3" transform="translate(22.166667, 57.192308) rotate(180.000000) translate(-22.166667, -57.192308) " points="22.1666667 48 37.3333333 66.3846154 7 66.3846154"></polygon>
+                </g>
+                <g id="right" transform="translate(132.000000, 57.000000)">
+                    <polygon id="Rectangle-2-Copy" transform="translate(58.192308, 22.166667) rotate(90.000000) translate(-58.192308, -22.166667) " points="58.1923077 12.974359 73.3589744 31.3589744 43.025641 31.3589744"></polygon>
+                </g>
+                <g id="left" transform="translate(0.000000, 57.000000)">
+                    <polygon id="Rectangle-2-Copy-2" transform="translate(9.807692, 22.166667) rotate(-90.000000) translate(-9.807692, -22.166667) " points="9.80769231 12.974359 24.974359 31.3589744 -5.35897436 31.3589744"></polygon>
+                </g>
+            </g>
+            <g id="shift" transform="translate(8.000000, 250.000000)" font-size="14" font-family="LiberationSans, Liberation Sans" fill="#4A4A4A" font-weight="normal">
+                <text id="faster">
+                    <tspan x="17.4931641" y="13">faster</tspan>
+                </text>
+            </g>
+            <g id="alt" transform="translate(214.000000, 250.000000)" font-size="14" font-family="LiberationSans, Liberation Sans" fill="#4A4A4A" font-weight="normal">
+                <text id="slower">
+                    <tspan x="14.7724609" y="13">slower</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Cozmo Explorer Tool</title>
+
+    <link rel="stylesheet" href="../static/css/jquery-ui.css?q={{ randomID }}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script type=text/javascript>
+        let $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let anims_raw = '{{ animations }}';
+        let triggers_raw = '{{ triggers }}';
+        let behaviors_raw = '{{ behaviors }}';
+        let hasSocketIO = '{{ hasSocketIO }}';
+        let hasPillow = '{{ hasPillow }}';
+    </script>
+    <script src="../static/js/jquery-1.12.4.min.js"></script>
+    <script src="../static/js/jquery-ui-1.12.1.min.js"></script>
+    <script src="../static/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="../static/js/socket.io-1.3.5.min.js"></script>
+    <script src="../static/js/event-monitor.js?q={{ randomID }}"></script>
+    <script src="../static/js/engine.js?q={{ randomID }}"></script>
+    <link rel="stylesheet" href="../static/css/cozmo_animation_list.css?q={{ randomID }}">
+</head>
+
+<body>
+    <div id="header">
+        <div class="contentarea">
+            <div id="cozmo-container">
+                <img src="../static/img/cozmo_blank.svg" id="c-blank" class="cozmo">
+                <img src="../static/img/cozmo_eyes.svg" id="c-eyes" class="cozmo">
+                <img src="../static/img/cozmo_playing.svg" id="c-play" class="cozmo">
+            </div>
+            <div class="v-align">
+                <img src="../static/img/cozmo-logo.svg" class="logo" height="30" width="147">
+            </div>
+            <span>Explorer<br/>Tool<i class="fa fa-search"></i></span>
+            <div class="hermit">created by <br/><a href="https://forums.anki.com/users/grinninghermit/summary">GrinningHermit</a></div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="column-2">
+            <div id="viewer" class="viewer-height">
+{#                <div id="viewer-header" class="window-header">
+                    <b><i class="accordeon-icon fa fa-minus-square-o"></i>Robot camera</b>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox5" id="checkbox-5">
+                        <label for="checkbox-5">data</label>
+                    </div>
+                </div>#}
+                <div id="viewer-content">
+                    <div id="viewer-bg" class="black-bg"></div>
+                    <img src="cozmoImage" id="cozmoImageId">
+                    <div id="controls">
+                        <div id="button-bg" class="black-bg"></div>
+                        <i id="controls-info-btn" class="info-btn fa fa-align-left"></i>
+                        <i id="controls-fullscr-btn" class="info-btn fa fa-expand"></i>
+                        <div id="controls-content"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="event-monitor">
+                <div id="event-header" class="window-header">
+                    <b><i class="accordeon-icon fa fa-caret-square-o-up"></i><span class="indented">Event monitor</span></b>
+                </div>
+                <ul id="event-content"></ul>
+            </div>
+        </div>
+        <div id="tabs">
+            <ul id="tabs-list" class="tabs-list">
+                <li><a href="#fragment-0"><span>Animations</span></a></li>
+                <li><a href="#fragment-1"><span>Triggers</span></a></li>
+                <li><a href="#fragment-2" ><span>Behaviors</span></a></li>
+                <span id="pose-btn">
+                    <i id="pose-btn-icon" class="fa fa-reply"></i>
+
+                </span>
+                <div id="pose-tt" class="tooltip">Return to pose after animation</div>
+            </ul>
+            <div id="fragment-0" class="flex-cstm"></div>
+            <div id="fragment-1" class="flex-cstm"></div>
+            <div id="fragment-2" class="flex-cstm"></div>
+        </div>
+    </div>
+</body>
+
+</html>

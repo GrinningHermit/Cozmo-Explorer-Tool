@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+#header {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background-image: linear-gradient(to bottom right, #fff022, #ffc736);
+    padding: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 20px 0 20px;
+}
+
+#l-col {
+    flex: 1 300px;
+}
+
+#c-col {
+    flex: 1 auto;
+}
+
+#r-col {
+    flex: 99999;
+    padding: 20px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-item {
+   flex: auto;
+}
+
+ul {
+    display: inline-block;
+    overflow-y: scroll;
+    list-style: none;
+    font-family: "Courier", "Lucida Console", monospace;
+    font-size: .8em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+li {
+    clear: both;
+    border-bottom: solid 1px #eeeeee;
+    line-height: 26px;
+    padding: 0 8px 0 8px;
+    color: #444444;
+    background-color: #ffffff;
+}
+
+li:hover {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+input {
+    height: 30px;
+    font-size: 1em;
+    outline: none;
+    margin: 0 5px 0 20px;
+    width: 270px;
+}
+
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -40px;
+    top: 1px;
+    color: #dddddd;
+    width: 0;
+}
+
+#filterclear {
+    position: relative;
+    z-index: 2;
+    left: -34px;
+    top: 1px;
+    color: #aaaaaa;
+    cursor: pointer;
+    width: 0;
+    visibility: hidden;
+}
+
+.ui-button{
+    margin: 5px 5px 0 0;
+    font-size: .7em;
+}
+
+.logo {
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.05));
+    height: 30px;
+}
+
+.bg-grey {
+    background-color: #eeeeee;
+    margin: 0 0 0 -20px;
+    padding: 5px 0 5px 0;
+}
+
+.cozmo {
+    position: absolute;
+    width: 200px;
+}
+
+#c-play {
+    display: none;
+    animation-name: blink;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+#c-eyes {
+    animation-name: eyeblink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eyeblink {
+    0%     {opacity: 1;}
+    50%    {opacity: 1;}
+    50.1%  {opacity: 0;}
+    51%    {opacity: 0;}
+    51.1%  {opacity: 1;}
+    100%   {opacity: 1;}
+}
+
+@keyframes blink {
+    0%     {opacity: 1;}
+    50%    {opacity: 1;}
+    50.1%  {opacity: 0;}
+    99.9%  {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+#animation-name {
+    color: #444444;
+    font-size: .8em;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 5px;
+    line-height: 24px;
+    position: absolute;
+    top: 300px;
+    width: 200px;
+}
+
+#mono {
+    font-family: "Courier", "Lucida Console", monospace;
+    word-wrap: break-word;
+}
+
+#status {
+    color: #aaaaaa;
+}
+
+#animation-name .ui-button {
+    font-size: 1em;
+}
+
+.content-text {
+    position: absolute;
+    top: 440px;
+    width:200px;
+    color: #aaaaaa;
+    font-size: .8em;
+}
+
+.ui-effects-transfer { border: 2px dotted gray; }
+
+.hermit {
+    float: right;
+    font-size: .3em;
+    color: #bbbbbb;
+    padding: 11px 0 0 0;
+}
+
+.hermit a{
+    color: #bbbbbb;
+}
