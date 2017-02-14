@@ -33,7 +33,7 @@ System requirements
 
 Installation notes
 -
-- Running 'animation-explorer.py' will attempt to open a browser window at 127.0.0.1:5000. This is similar to  'remote_control_cozmo.py' from the Cozmo SDK examples.
+- Running 'animation-explorer.py' will attempt to open a browser window at 0.0.0.1:5000. This is similar to  'remote_control_cozmo.py' from the Cozmo SDK examples.
 - Install the entire project, not just the .py file, or it won't work.
 
 
