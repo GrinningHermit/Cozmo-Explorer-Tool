@@ -3,6 +3,8 @@ Interface exposing functionality of the robot Cozmo from Anki
 ---
 This tool gives control over Cozmo. You can look through his camera while using keyboard buttons to control him. The event monitor helps in checking when he detects something, like seeing a cube or being picked up. It also includes all functions from the Animation Explorer, listing and playing all built-in animations. Making a movie, scaring your cat or writing code should be easier using the Cozmo Explorer Tool. A lot of the code is derived from remote-control-cozmo.py from the SDK examples and [cozmo-tools](https://github.com/touretzkyds/cozmo-tools)' event monitor.
 
+![Cozmo-Explorer-Tool](static/img/explorer-tool-v0.5.jpg)
+
 What does it do exactly?
 -
 Running the script 'explorer_tool.py' in python will open a web page. It is divided in 3 sections:
@@ -39,4 +41,4 @@ Installation notes
 - Install the entire project, not just the .py file, or it won't work.
 
 
-![Cozmo-Explorer-Tool](static/img/explorer-tool-v0.5.jpg)
+
