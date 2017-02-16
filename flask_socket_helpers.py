@@ -60,7 +60,7 @@ def run_flask(socketio, app, host_ip='0.0.0.0', host_port=5000, enable_flask_log
         # we add a delay (dispatched in another thread) to open the page so that the flask webserver is open
         # before the webpage requests any data
         _delayed_open_web_browser("http://" + host_ip + ":" + str(host_port), delay=open_page_delay)
-    print('Host IP: ' + str(socket.gethostbyname(socket.gethostname())) + ':' + str(host_port))
+    # print('Host IP: ' + str(socket.gethostbyname(socket.gethostname())) + ':' + str(host_port))
     if socketio:
         socketio.run(app, host=host_ip, port=host_port)
     else:
