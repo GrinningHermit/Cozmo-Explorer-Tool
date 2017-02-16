@@ -1,0 +1,16 @@
+
+*.pyc
+
+.idea/workspace.xml
+
+.idea/Cozmo-Explorer-Tool.iml
+
+.idea/inspectionProfiles/profiles_settings.xml
+
+.idea/jsLibraryMappings.xml
+
+.idea/misc.xml
+
+.idea/modules.xml
+
+.idea/vcs.xml
